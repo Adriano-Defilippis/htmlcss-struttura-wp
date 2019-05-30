@@ -1,5 +1,12 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
+  text-align: center;
+}
+
+header{
+  width: 60%;
+  height: 300px;
+  background: red;
 }
