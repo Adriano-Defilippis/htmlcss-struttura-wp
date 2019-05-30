@@ -73,8 +73,6 @@ footer{
 .page-center{
   display: inline;
   float: left;
-  /* margin: 10px; */
-  /* text-align: center; */
   position: relative;
   background: black;
   width: 60%;
@@ -83,14 +81,18 @@ footer{
 
 .page-center article{
   width: 80%;
-  height: 100px;
+  /* height: 100px; */
   margin-bottom: 10px;
   position: absolute;
   left: 10%;
-
-
   background-color: white;
   position: absolute;
+}
+
+.page-center article::after{
+  content: "";
+  display: table;
+  clear:both;
 }
 
 .widget{
