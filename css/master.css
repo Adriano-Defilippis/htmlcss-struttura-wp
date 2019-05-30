@@ -57,7 +57,12 @@ footer{
   float: left;
   margin: 10px;
   background: black;
-  width: 50%;
+  /* width: 50%; */
   height: 400px;
 
+}
+
+.widget{
+  background-color: orange;
+  /* width: */
 }
