@@ -1,12 +1,22 @@
 *{
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
   text-align: center;
 }
 
+body{
+  /* width: 60%; */
+  /* position: absolute; */
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+}
+
 header{
-  width: 60%;
-  height: 300px;
+  /* width: 60%; */
+  height: 250px;
   background: red;
 }
