@@ -26,6 +26,7 @@ header{
 nav{
   background: green;
   height: 40px;
+  margin-bottom: 5px;
 }
 
 section{
@@ -37,7 +38,8 @@ section{
 }
 
 .aside-left{
-  background: blue;
+  /* background: blue; */
+  background-color: none;
   width: 20%;
   height: 100%;
   float: left;
@@ -51,37 +53,51 @@ section::after{
 }
 
 .aside_right{
-  background: blue;
+  /* background: blue; */
+  background-color: none;
   width: 20%;
   height: 100%;
   float: right;
 }
 
 footer{
-
   background: yellow;
-  width: 100%;
-  height: 100px;
+  width: 100%;;
+  height: 50px;
   float: left;
+  margin-top: 10px;
   position: relative;
-  bottom: 0;
+  bottom: 10px;
 }
 
 .page-center{
   display: inline;
   float: left;
   /* margin: 10px; */
+  /* text-align: center; */
+  position: relative;
   background: black;
   width: 60%;
-  height: 400px;
+  /* height: 400px; */
+}
 
+.page-center article{
+  width: 80%;
+  height: 100px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 10%;
+
+
+  background-color: white;
+  position: absolute;
 }
 
 .widget{
   background-color: orange;
-  padding-right: 5px;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-bottom: 5px;
+  float: left;
+
 
   /* width: */
 }
